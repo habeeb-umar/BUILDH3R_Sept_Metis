@@ -15,7 +15,7 @@ import "hardhat-deploy-ethers";
 const providerApiKey = process.env.ALCHEMY_API_KEY || "oKxs-03sij-U_N0iOlrSsZFr29-IqbuF";
 // If not set, it uses the hardhat account 0 private key.
 const deployerPrivateKey =
-  process.env.DEPLOYER_PRIVATE_KEY ?? "0x1b7e3d9a4f6a2d5b7c9f1a4c8e9d3b2f5c8a9d4e1f7a5b6c4d2e9b7a1c3f5e4d";
+  process.env.DEPLOYER_PRIVATE_KEY ?? "0x5b8a4c7d3f9b1c7a2e4f9d3b7a5c6e1d9b2c4e5f1d7a8b5e3c6d4b9a1f7e3a5d";
 // If not set, it uses ours Etherscan default API key.
 const etherscanApiKey = process.env.ETHERSCAN_API_KEY || "DNXJA8RX2Q3VZ4URQIWP7Z68CJXQZSC6AW";
 
